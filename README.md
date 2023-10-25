@@ -49,13 +49,7 @@ Click <a href="https://fiware-orion.readthedocs.io/en/3.10.1/index.html"> aqui <
 
 O STH-Comet é um componente da plataforma FIWARE que lida com o armazenamento histórico de dados contextuais em larga escala. Ele trabalha em conjunto com o Orion Context Broker para capturar, armazenar e consultar dados históricos. O STH-Comet oferece recursos avançados, como armazenamento eficiente em série temporal, consultas de agregação e consultas de séries temporais. Ele fornece uma API RESTful para interação e permite que os desenvolvedores acessem e analisem dados históricos de forma eficiente. Em resumo, o STH-Comet facilita o armazenamento e consulta de dados contextuais históricos na plataforma FIWARE.
 
-<br>
-<p align="center">
-<img src="https://github.com/fabiocabrini/fiware/blob/main/sth-comet-architecture.png">
-</p>
-<br>
-
-Com o STH-Comet em conjunto com a linguagem de programação Python (Biblioteca Matplotlib) é possível gerar gráficos muito legais!
+A API do STH-Comet pode ser consumida por programas desenvolvidos em Python que podem gerar gráficos históricos através da biblioteca Matplotlib.
 
 <br>
 <p align="center">
@@ -174,13 +168,9 @@ Click <a href="https://github.com/fabiocabrini/fiware/blob/main/FIWARE.postman_c
 
 ## PoC - Smart Lamp
 
-Esta documentação vai ajudá-lo a construir uma PoC (Proof of Concept) baseada no exemplo do Smart Lamp, utilizando a plataforma de prototipação ESP8266 NodeMCU V3 ou ESP32 DEVKIT V1, poderosos microntroladores de 32 bits da Espressif, equipados com as tecnologias de comunicação wireless.
+Esta documentação vai ajudá-lo a construir uma PoC (Proof of Concept) baseada no exemplo do Smart Lamp, utilizando a plataforma de prototipação ESP32 DEVKIT V1, microntrolador de 32 bits da Espressif, equipado com as tecnologias de comunicação wireless Wi-Fi IEEE802.11n e Bluetooth IEEE802.15.
 
-<a href="mqtt_nodemcu.md">ESP8266 NodeMCU: Publica no tópico "attrs" valores de luminosidade e subscreve no tópico "command" os comandos on/off via MQTT</a>
-
-<a href="mqtt_esp32.md">ESP32: Publica no tópico "attrs" valores de luminosidade e subscreve no tópico "command" os comandos on/off via MQTT</a>
-
-Click <a href="https://www.espressif.com/sites/default/files/documentation/0a-esp8266ex_datasheet_en.pdf"> aqui </a> para acessar o data sheet do ESP8266 NodeMCU.
+<a href="mqtt_esp32.md">ESP32: Publica no tópico "attrs" valores de luminosidade e subscreve no tópico "command" os comandos on/off via protocolo MQTT</a>
 
 Click <a href="https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf"> aqui </a> para acessar o data sheet do ESP32.
 
